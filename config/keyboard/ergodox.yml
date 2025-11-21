@@ -118,7 +118,7 @@ base_layout:
       - ["g", "G", ">", "8", "γ", "Γ"]
       - ["f", "F", "=", "9", "φ", "Φ"]
       - ["q", "Q", "&", "+", "ϕ", "ℚ"]
-      - ["y", "Y", "@", "-", "υ", "∇"]
+      - [""]
     # Row 2 (home row)
     - - [""]
       - ["u", "U", "\\", "⇱", "", "⊂"]
@@ -133,12 +133,12 @@ base_layout:
       - ["r", "R", ")", "5", "ρ", "ℝ"]
       - ["t", "T", "-", "6", "τ", "∂"]
       - ["d", "D", ":", ",", "δ", "Δ"]
-      - ["ß", "ẞ", "ſ", ";", "ς", "∘"]
+      - [""]
     # Row 3
     - - [""]
       - ["'", '"', "#", "", "", "∪"]
       - ["x", "X", "$", "\t", "ϵ", "∩"]
-      - ["ä", "Ä", "|", "⎀", "η", "ℵ"]
+      - ["y", "Y", "|", "⎀", "η", "ℵ"]
       - ["p", "P", "~", "\n", "π", "Π"]
       - ["z", "Z", "`", "↶", "ζ", "ℤ"]
       - ["b", "B", "+", ":", "β", "⇐"]
@@ -169,8 +169,8 @@ base_layout:
 
   fixed_keys:
     - [  true,  true,  true,  true,  true,  true, true,                           true, true,  true,  true,  true,  true,  true]
-    - [  true,  true, false, false, false, false, true,                           true, false, false, false, false, false, false]
-    - [  true, false, false, false, false, false, true,                           true, false, false, false, false, false, false]
+    - [  true,  true, false, false, false, false, true,                           true, false, false, false, false, false, true]
+    - [  true, false, false, false, false, false, true,                           true, false, false, false, false, false, true]
     - [  true, false, false, false, false, false,                                       false, false, false, false, false, true]
     - [  true,  true,  true,  true,  true,  true,  true, true, true,  true, true, true, true,  true,  true,  true,  true,  true]
 
