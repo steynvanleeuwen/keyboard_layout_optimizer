@@ -185,31 +185,31 @@ base_layout:
   modifiers:
     - Left:
         type: hold
-        value: [[6,4]]
+        value: [[1,2]]
       Right:
         type: hold
-        value: [[6,4]]
-    - Left:
-        type: hold
-        value: [[4,4]]
-      Right:
-        type: hold
-        value: [[4,4]]
-    - Left:
-        type: hold
-        value: [[5,4]]
-      Right:
-        type: hold
-        value: [[5,4]]
-    - Left:
-        type: hold
-        value: [[15,4]]
-      Right:
-        type: hold
-        value: [[15,4]]
-    - Left:
-        type: hold
-        value: [[4,4], [5,4]]
-      Right:
-        type: hold
-        value: [[4,4], [5,4]]
+        value: [[18,2]]
+    # - Left:
+    #     type: hold
+    #     value: [[4,4]]
+    #   Right:
+    #     type: hold
+    #     value: [[4,4]]
+    # - Left:
+    #     type: hold
+    #     value: [[5,4]]
+    #   Right:
+    #     type: hold
+    #     value: [[5,4]]
+    # - Left:
+    #     type: hold
+    #     value: [[15,4]]
+    #   Right:
+    #     type: hold
+    #     value: [[15,4]]
+    # - Left:
+    #     type: hold
+    #     value: [[4,4], [5,4]]
+    #   Right:
+    #     type: hold
+    #     value: [[4,4], [5,4]]

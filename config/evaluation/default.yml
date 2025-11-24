@@ -10,7 +10,7 @@ metrics:
       value: 1.0
     params:
       # symbols that shall be considered "shortcut keys"
-      shortcut_chars: cvx
+      shortcut_chars: cvxz
       cost: 1.0
       within_n_leftmost_cols: 5
 
@@ -31,9 +31,6 @@ metrics:
           letter_pairs:
             # List of pairs of letters that shall be placed in related positions to each other
             # Diacritics
-            - ["a", "ä"]
-            - ["o", "ö"]
-            - ["u", "ü"]
         # - same_key_cost: 0.5
         #   neighboring_cost: 0.5
         #   same_column_cost: 0.8
@@ -58,11 +55,6 @@ metrics:
       # e.g. ["auo", "äüö"] means that the relative location of a -> ä shall be identical to u -> ü
       # and o -> ö. Otherwise, a cost is counted.
       letter_group_pairs:
-        - ["auo", "äüö"]
-        # - ["auo", "äüö"]
-        # - ["gbd", "kpt"]
-        # - ["gbdw", "kptf"]
-        # - ["sfdn", "tpbm"]
 
   # unigram metrics
 
